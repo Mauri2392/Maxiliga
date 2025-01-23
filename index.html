@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Lab</title> 
+    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    /> 
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- swiper js cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+</head>
+<body> 
+
+<!-- header section starts  --> 
+    <header class="header">      
+        <img src="./img-lb/logo-nuevo.png" alt="logo" class="logo">
+            
+        <nav class="navbar">
+            <a href="index.html">Nosotros</a>
+            <a href="./1era/1-equipos.html">Equipos</a> 
+            <a href="./1era/2-fixture.html">Fixture</a> 
+            <a href="./1era/3-posiciones.html">Posiciones</a> 
+            <a href="./1era/4-goleadores.html">Goleadores</a> 
+        </nav>
+
+        <div class="icon">
+          <div class="fas fa-bars" id="menu"></div>
+          
+          <div class="fas fa-moon" id="theme-btn"></div> 
+      </div>
+    </header>
+  <!--   header section ends --> 
+
+<main> 
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(img-lb/PRIMERR.png) no-repeat"
+          >
+    <!--        <div class="content" data-aos="fade-up">
+              <h3>Bienvenidos a Nuestro Restaurante</h3>
+              <a href="./menu/index.html" class="btn" target="_blank">Menu</a> 
+            </div>    -->
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(img-lb/logo-5.png) no-repeat"
+          >
+    <!--        <div class="content"> 
+              <h3>Bienvenidos a Nuestro Restaurante</h3>
+              <a href="./menu/index.html" class="btn" target="_blank">Menu</a> 
+            </div>    -->
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(img-lb/logo-5.png) no-repeat"
+          >
+    <!--        <div class="content">
+              <h3>Bienvenidos a Nuestro Restaurante</h3>
+              <a href="./menu/index.html" class="btn" target="_blank">Menu</a> 
+            </div>    -->
+          </div> 
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(img-lb/logo-5.png) no-repeat"
+          >
+    <!--        <div class="content">
+              <h3>Bienvenidos a Nuestro Restaurante</h3>
+              <a href="./menu/index.html" class="btn" target="_blank">Menu</a> 
+            </div>    -->
+          </div>
+        </div>
+
+        <!--
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+     end --> 
+
+
+  <!-- about section starts -->
+    <section class="about" id="about" >
+     <h1 class="heading">Nosotros</h1>  
+      <div class="row">
+          <div class="content" data-aos="fade-up">
+         <!--      <h3>Nuestra Historia</h3>    --> 
+              <p>En el corazón de [nombre de la ciudad], nació [nombre del restaurante] en el año [año de apertura]
+                 con un simple pero apasionado propósito: ofrecer experiencias gastronómicas únicas que conecten a 
+                 las personas a través del sabor. Inspirados por la rica tradición culinaria de [región o tipo de 
+                 cocina], combinamos ingredientes frescos y locales con técnicas innovadoras para crear platillos 
+                 que deleitan los sentidos.
+              </p> 
+                 
+    <!--           <a href="./menu/index.html" class="btn" target="_blank">Ver carta</a>    -->
+          </div>
+
+          <div class="image" data-aos="fade-up" id="box"> 
+            <div class="boxes">
+              <img src="img-lb/BASKET3.png" alt=""> 
+            </div>  
+          </div>
+      </div>
+    </section>
+  <!-- about section ends --> 
+
+
+  <!-- about section starts -->
+    <section class="about" id="about" >
+      <div class="row" > 
+          <div class="image" data-aos="fade-up"> 
+            <div class="boxes">
+              <img src="img-lb/lab-logo-quienes-somos.jpg" alt=""> 
+            </div>
+          </div>
+          <div class="content" data-aos="fade-up">
+         <!--      <h3>Nuestra Historia</h3>    --> 
+              <p>
+                  Ven y descubre por qué [nombre del restaurante] es más que un lugar 
+                  para comer: es un destino para crear recuerdos inolvidables.
+                  <br>
+                  
+                  ¡Te invitamos a ser parte de nuestra historia! 
+              </p> 
+              <a href="./menu/index.html" class="btn" target="_blank">Ver carta</a> 
+          </div>
+      </div>
+   </section>
+   <!-- about section ends --> 
+
+<!-- platos -->  
+    <section class="slider" id="platos"> 
+<!--    <h1 class="heading">Nuestros Platos</h1>    -->
+
+<div class="sliderete" style="
+            --width: 150px; 
+            --height: 100px;
+            --quantity: 10; 
+        ">
+            <div class="list">
+                <div class="item" style="--position: 1"><img src="img-lb/active.jpg" alt=""></div>
+                <div class="item" style="--position: 2"><img src="img-lb/buda-travel.jpg" alt=""></div>
+                <div class="item" style="--position: 3"><img src="img-lb/caseritas.jpg" alt=""></div>
+                <div class="item" style="--position: 4"><img src="img-lb/farmacia.jpg" alt=""></div>
+                <div class="item" style="--position: 5"><img src="img-lb/induxa.jpg" alt=""></div>
+                <div class="item" style="--position: 6"><img src="img-lb/modde.jpg" alt=""></div>
+                <div class="item" style="--position: 7"><img src="img-lb/nodozero.jpg" alt=""></div>
+                <div class="item" style="--position: 8"><img src="img-lb/norton.jpg" alt=""></div>
+                <div class="item" style="--position: 9"><img src="img-lb/optica-ortuño.jpg" alt=""></div>
+                <div class="item" style="--position: 10"><img src="img-lb/pint-25-de-mayo.jpg" alt=""></div>
+            </div>
+        </div>
+</section> 
+<!-- platos end--> 
+
+
+<!-- gallery=--->
+  <section class="gallery" id="gallery"> 
+    <h1 class="heading">ORGANIZADORES</h1> 
+    <div class="swiper gallery-slider" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img-lb/orgnidor.webp" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/orgnidor.webp" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div> 
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div> 
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div> 
+        <div class="swiper-slide">
+          <img src="./img-lb/orgnidor.webp" alt="" />
+        </div> 
+      </div>
+    </div>
+  </section> 
+  <!-- end --> 
+
+
+  <!-- gallery=--->
+  <section class="gallery" id="gallery"> 
+    <h1 class="heading">COLABORADORES</h1> 
+    <div class="swiper gallery-slider" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div> 
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div> 
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div> 
+        <div class="swiper-slide">
+          <img src="img-lb/bitro.jpg" alt="" />
+        </div> 
+      </div>
+    </div>
+  </section> 
+  <!-- end -->
+
+
+  <!-- review -->
+  <section class="review" id="review" >
+    <h1 class="heading">COMENTARIOS</h1>
+    <div class="swiper review-slider" data-aos="fade-up">
+        <div class="swiper-wrapper"> 
+
+          <div class="swiper-slide slide">
+            <img src="img-lb/comments/review-3.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci eos, commodi nisi numquam ullam dolorum reprehenderit eligendi neque, perspiciatis quod blanditiis! Deserunt vero pariatur recusandae, illo enim harum vitae!</p>
+            <h3>maria john</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+            <div class="swiper-slide slide">
+                <img src="img-lb/comments/review-3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci eos, commodi nisi numquam ullam dolorum reprehenderit eligendi neque, perspiciatis quod blanditiis! Deserunt vero pariatur recusandae, illo enim harum vitae!</p>
+                <h3>maria john</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="img-lb/comments/review-3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci eos, commodi nisi numquam ullam dolorum reprehenderit eligendi neque, perspiciatis quod blanditiis! Deserunt vero pariatur recusandae, illo enim harum vitae!</p>
+                <h3>maria john</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="img-lb/comments/review-3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci eos, commodi nisi numquam ullam dolorum reprehenderit eligendi neque, perspiciatis quod blanditiis! Deserunt vero pariatur recusandae, illo enim harum vitae!</p>
+                <h3>maria john</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="img-lb/comments/review-3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci eos, commodi nisi numquam ullam dolorum reprehenderit eligendi neque, perspiciatis quod blanditiis! Deserunt vero pariatur recusandae, illo enim harum vitae!</p>
+                <h3>maria john</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review end-->
+
+
+<!-- Preguntas Frecuentes -->     
+<section class="containerfp" id="preguntas" >
+  <h1 class="heading">Preguntas Frecuentes</h1>
+
+  <div class="accordion-containerfp" data-aos="fade-up"> 
+
+      <div class="accordion active">
+          <div class="accordion-heading">
+              <h3>¿Cómo me inscribo?</h3>
+              <i class="fas fa-angle-right"></i>
+          </div>
+          <p class="accordion-content">Calle Eduardo Torroja, 10
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>¿Cuántos torneos se juegan?</h3>
+              <i class="fas fa-angle-right"></i>
+          </div>
+          <p class="accordion-content">Lunes a Domingos: [8] - [20]
+          </p>
+      </div> 
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>¿Cuántos equipos hay por categoría?</h3>
+              <i class="fas fa-angle-right"></i>
+          </div>
+          <p class="accordion-content">Sí, ofrecemos estacionamiento gratuito para nuestros clientes. 
+            También hay opciones de estacionamiento público cerca.</p>
+      </div> 
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>¿Que dias son los partidos?</h3>
+              <i class="fas fa-angle-right"></i>
+          </div>
+          <p class="accordion-content"> Somos un restaurante pet-friendly y permitimos mascotas en nuestra 
+            terraza al aire libre.
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>¿En que canchas se juegan?</h3>
+              <i class="fas fa-angle-right"></i>
+          </div>
+          <p class="accordion-content">Sí, ofrecemos Wi-Fi gratuito para nuestros clientes. Solicita la 
+            contraseña al personal.</p>
+      </div> 
+
+      <div class="accordion">
+        <div class="accordion-heading">
+            <h3>¿Que días se juegan?</h3> 
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <p class="accordion-content">Sí, ofrecemos Wi-Fi gratuito para nuestros clientes. Solicita la 
+          contraseña al personal.</p>
+    </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>¿Qué métodos de pago aceptamos?</h3>
+              <i class="fas fa-angle-right"></i>
+          </div>
+          <p class="accordion-content">Aceptamos pagos en efectivo, tarjetas de crédito/débito.</p>
+      </div> 
+  </div>
+</section>
+<!-- end --> 
+
+
+<!-- contact us section starts -->
+
+<section class="contact" id="order" > 
+  <h1 class="heading">Contacto</h1>
+
+  <div class="row" data-aos="fade-up">
+
+      <form action="">
+          <h3>Reserva tu Mesa</h3> 
+
+          <div class="inputBox">
+              <input type="text" placeholder="Nombre y Apellido" class="box"> 
+              <input type="number" placeholder="Teléfono" class="box"> 
+              <input type="email" placeholder="Email" class="box"> 
+              <input type="text" placeholder="Asunto" class="box"> 
+          </div> 
+
+          <textarea placeholder="Deje su Mensaje" cols="30" rows="10"></textarea>
+          <input type="submit" value="Enviar" class="btn">
+
+      </form>
+
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5416.922604944677!2d-0.4851418705788072!3d38.34370248495758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237b0b542e4db%3A0x3587b7cde7b4e8ec!2sCasino%20Mediterr%C3%A1neo%20Alicante!5e0!3m2!1ses!2ses!4v1734823918709!5m2!1ses!2ses" 
+      
+      width="550" 
+      allowfullscreen="" 
+      loading="lazy" 
+      class="map">
+    </iframe> 
+  </div>
+</section>
+<!-- contact us section ends -->  
+
+
+<!-- footer -->
+<section class="footer">
+
+  <div class="icons-container">
+
+      <div class="icons">
+          <i class="fas fa-map"></i>
+          <h3>Dirección</h3>
+          <p>Av. Alem 1280<br>
+              Bahia Blanca<br>
+              ARGENTINA</p>
+      </div>
+
+      <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>Teléfono</h3>
+          <p>291 847578</p>
+          <p>291 847578</p>
+      </div>
+
+      <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>email</h3>
+          <a href="#" class="link">tuemail@gmail.com</a>
+      </div>
+
+      <div class="icons">
+          <i class="fas fa-clock"></i>
+          <h3>horario</h3>
+          <p>Lunes a Domingo: <br> 8:00 - 20:00 
+      </div>
+
+  </div>
+
+  <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+  </div>
+
+  <div class="credit">Creado por <span><a href="https://www.digitalmenuqr.es/">Digital Menu QR</span></a> | Todos los derechos reservados!</div>  
+</section> 
+<!-- end --> 
+</main> 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!--  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    -->
+    <script src="script.js"></script>
+</body>
+</html>
