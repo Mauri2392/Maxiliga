@@ -691,9 +691,6 @@ section{
     padding-top: 3px; 
 } 
 
-
-
-
 .nuevo {
     display: flex; 
     justify-content: center; 
@@ -744,9 +741,56 @@ section{
     text-align: center; 
     align-items: center;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
+} 
+
+.acordeon {
+    border: 2px solid var(--bg);
+    border-top: none; 
+    width: 304px;
+   /*  margin-top: 10px; */ 
+ /*  border-bottom: 1px solid var(--bg); */
 }
+
+.acordeon-btn {
+    background-color: var(--prymary);
+    color: var(--bg);
+    border: none;
+    width: 100%;
+    padding: 10px; 
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+.acordeon-btn:hover {
+   /* background-color: var(--prymary); 
+   background-color: var(--bg); */ 
+   color: var(--thirdact); 
+   
+} 
+
+.acordeon-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: var(--thirdact);
+    padding: 0 10px;
+ /*   border-top: 1px solid var(--bg); */
+}
+
+.acordeon-content p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* 
+.puntos {
+    width: 100%;
+    border-bottom: 2px solid var(--bg); 
+    border-left: 2px solid var(--bg); 
+    border-right: 2px solid var(--bg);
+} */ 
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
 .table-container {

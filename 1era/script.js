@@ -29,3 +29,18 @@ AOS.init({
     duration:800,
     delay:200
 }); 
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const acordeonBtn = document.querySelector(".acordeon-btn");
+        const acordeonContent = document.querySelector(".acordeon-content");
+
+        acordeonBtn.addEventListener("click", () => {
+            const isOpen = acordeonContent.style.maxHeight;
+
+            if (isOpen) {
+                acordeonContent.style.maxHeight = null;
+            } else {
+                acordeonContent.style.maxHeight = acordeonContent.scrollHeight + "px";
+            }
+        });
+    });
