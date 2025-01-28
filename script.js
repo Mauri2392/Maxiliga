@@ -35,7 +35,6 @@ themeBtn.onclick = () =>{
     }else{
         document.body.classList.remove('active');
     }
-
 };
 
   var swiper = new Swiper(".gallery-slider", {

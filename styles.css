@@ -37,8 +37,8 @@ body {
 } 
 
 body.active{
-    --third: #f2f2f2; 
-    --thirdact: #eee;
+    --third: #f0e7e7; 
+    --thirdact: #f2f2f2;
    /* --bg: #130f40;
     --light-bg: #08042b; */
     --bg: #08042b; 
@@ -113,7 +113,7 @@ section{
    display: flex; 
    align-items: center;
    justify-content: space-between;
-   padding: 2rem 5%;
+   padding: 1rem 5%;
    background: var(--third);
    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1); 
 }
@@ -216,6 +216,11 @@ section{
         font-size: 2rem;
         margin: 2rem 2.5rem;
         display: block;
+} 
+
+.header .logo{
+    width: 60px;
+    height: 60px; 
 }
 
 .about .heading {
