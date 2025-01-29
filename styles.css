@@ -254,6 +254,12 @@ main {
 /* end */ 
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+.home {
+    background-image: url(./html-navbar/img-parket/parquet2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
 
 .image-container {
     position: relative;
@@ -261,7 +267,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%; /* Ajusta según el tamaño que desees */
-    max-width: 1000px;  /* Tamaño máximo para la imagen */
+    max-width: 1200px;  /* Tamaño máximo para la imagen */
     margin: 0 auto; /* Centra el contenedor en la página */
     margin-top: 120px; 
 }
