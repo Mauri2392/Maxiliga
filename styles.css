@@ -235,6 +235,20 @@ section{
     width: 90%; 
     height: 350px;
 } 
+
+.footer {
+    background-image: url(html-navbar/img-parket/parquet6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+} 
+.footer .icons-container .icons h3, 
+.footer .icons-container .icons p, 
+.footer .credit, 
+.footer .icons-container .icons .link {
+    color: var(--black);
+} 
+
 }
 
 @media (max-width: 450px){

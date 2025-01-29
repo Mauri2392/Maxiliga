@@ -45,7 +45,7 @@ body.active{
     --light-bg: #08042b; */
     --bg: #08042b; 
     --light-bg: #130f40; 
-    --black: #fff; 
+    /* --black: #fff; */
     --black2: #fff; 
 }
 
@@ -412,9 +412,21 @@ section{
 } 
 
 .equipos h3 {
-    font-size: 40px;
+    font-size: 40px; 
 } 
 
+.footer {
+    background-image: url(./img-parket/parquet6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+} 
+.footer .icons-container .icons h3, 
+.footer .icons-container .icons p, 
+.footer .credit, 
+.footer .icons-container .icons .link {
+    color: var(--black);
+} 
 
 }
 
