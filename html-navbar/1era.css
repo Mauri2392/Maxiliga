@@ -166,8 +166,7 @@ section{
     align-items: center;
     width: 100%; /* Ajusta según el tamaño que desees */
     max-width: 1000px;  /* Tamaño máximo para la imagen */
-    margin: 0 auto; /* Centra el contenedor en la página */
-    margin-top: 120px; 
+    margin: 0 auto; /* Centra el contenedor en la página */ 
 }
 
 .image-container .logo-primera {
@@ -175,6 +174,7 @@ section{
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
+    margin-top: 120px; 
 }
 
 .image-container .text-overlay {
@@ -295,7 +295,7 @@ section{
 
 .footer .icons-container .icons p{
     line-height: 1.5;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: var(--bg);
     text-transform: capitalize;
 }
@@ -409,6 +409,10 @@ section{
     width: 60px;
     height: 60px; 
     border-radius: 50%;
+} 
+
+.image-container .logo-primera {
+    margin-top: 80px; 
 } 
 
 .equipos h3 {
