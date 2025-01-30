@@ -236,19 +236,6 @@ section{
     height: 350px;
 } 
 
-.footer {
-    background-image: url(html-navbar/img-parket/parquet6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-} 
-.footer .icons-container .icons h3, 
-.footer .icons-container .icons p, 
-.footer .credit, 
-.footer .icons-container .icons .link {
-    color: var(--black);
-} 
-
 }
 
 @media (max-width: 450px){
@@ -776,16 +763,18 @@ span{
     /* margin-top: 2rem; */
     text-align: center; 
     background-color: var(--third); 
-   /* background-image: url(html-navbar/img-parket/parquet44.png);
+    background-image: url(./html-navbar/img-parket/bskt.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center; 
+    height: 85vh; 
 }
 
 .footer .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    gap: 2rem; 
+    margin-top: 60px;
 }
 
 .footer .icons-container .icons{
@@ -807,7 +796,7 @@ span{
 
 .footer .icons-container .icons h3{
     font-size: 2rem;
-    color: var(--bg);
+    color: var(--black);
     padding: 1rem 0;
     text-transform: capitalize;
 }
@@ -815,14 +804,14 @@ span{
 .footer .icons-container .icons p{
     line-height: 1.5;
     font-size: 1.9rem;
-    color: var(--bg);
+    color: var(--black);
     text-transform: capitalize;
 }
 
 .footer .icons-container .icons .link{
     font-size: 1.7rem;
     line-height: 2rem;
-    color: var(--celete);
+    color: var(--white);
     padding: .5rem 0;
     display: block;
 }
@@ -857,7 +846,7 @@ span{
     margin-top: 3rem;
     padding-top: 3rem;
     font-size: 2rem;
-    color: var(--bg);
+    color: var(--black);
     border-top: var(--celeste);
 } 
 
@@ -867,3 +856,28 @@ span{
 } 
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
+@media (max-width: 768px) {
+    
+.footer {
+    background-image: url(./html-navbar/img-parket/bskt2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+} 
+
+.footer .icons-container .icons h3 {
+    background-color: #0000004d; 
+    width: 40%;
+    margin: 0 auto; 
+    border-radius: 20px;
+} 
+
+.footer .icons-container .icons h3, 
+.footer .icons-container .icons p, 
+.footer .credit, 
+.footer .icons-container .icons .link {
+    color: var(--white);
+} 
+
+}

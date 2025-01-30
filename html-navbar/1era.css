@@ -501,6 +501,10 @@ section{
     text-align: center; 
 } 
 
+.equiposss img {
+    margin-bottom: 8px;
+}
+
 .jugador {
     display: flex; 
     flex-direction: column; 
