@@ -291,7 +291,7 @@ section{
 
 .footer .icons-container .icons h3{
     font-size: 2rem;
-    color: var(--white);
+    color: var(--black);
     padding: 1rem 0;
     text-transform: capitalize; 
 }
@@ -306,7 +306,7 @@ section{
 .footer .icons-container .icons .link{
     font-size: 1.7rem;
     line-height: 2rem;
-    color: var(--celete);
+    color: var(--white);
     padding: .5rem 0;
     display: block;
 }
@@ -423,24 +423,26 @@ section{
 } 
 
 .footer {
-    background-image: url(./img-parket/bskt1.jpg);
+    background-image: url(./img-parket/prket67.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
     height: 100%;
 } 
+/*
 .footer .icons-container .icons h3 {
     background-color: #0000004d; 
     width: 40%;
     margin: 0 auto; 
     border-radius: 20px;
-} 
+} */
+/*
 .footer .icons-container .icons h3,
 .footer .icons-container .icons p, 
 .footer .credit, 
 .footer .icons-container .icons .link {
     color: var(--white);
-} 
+} */
 
 }
 
