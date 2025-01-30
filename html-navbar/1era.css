@@ -298,13 +298,13 @@ section{
 
 .footer .icons-container .icons p{
     line-height: 1.5;
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: var(--black);
     text-transform: capitalize; 
 }
 
 .footer .icons-container .icons .link{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     line-height: 2rem;
     color: var(--white);
     padding: .5rem 0;
@@ -423,26 +423,26 @@ section{
 } 
 
 .footer {
-    background-image: url(./img-parket/prket67.png);
+    background-image: url(./img-parket/bskt2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
     height: 100%;
 } 
-/*
+
 .footer .icons-container .icons h3 {
     background-color: #0000004d; 
     width: 40%;
     margin: 0 auto; 
     border-radius: 20px;
-} */
-/*
+} 
+
 .footer .icons-container .icons h3,
 .footer .icons-container .icons p, 
 .footer .credit, 
 .footer .icons-container .icons .link {
     color: var(--white);
-} */
+} 
 
 }
 
@@ -827,10 +827,10 @@ section{
     transition: max-height 0.3s ease-out;
     background-color: var(--thirdact);
     padding: 0 10px; 
-    background-image: url(./img-parket/parquet2.jpg);
+  /*  background-image: url(./img-parket/parquet2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center; */
  /*   border-top: 1px solid var(--bg); */ 
 
 }
@@ -838,7 +838,7 @@ section{
 .acordeon-content p {
     margin: 5px 0;
     font-size: 16px; 
-    color: var(--border-fixt);
+    color: var(--bg);
 }
 
 /* ---------------------------------------------- */ 
