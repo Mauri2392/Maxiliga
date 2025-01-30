@@ -775,7 +775,11 @@ span{
     /* background: url(./img/13-footer/footer.png); */
     /* margin-top: 2rem; */
     text-align: center; 
-    background-color: var(--third);
+    background-color: var(--third); 
+   /* background-image: url(html-navbar/img-parket/parquet44.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
 .footer .icons-container{

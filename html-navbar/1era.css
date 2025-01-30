@@ -11,6 +11,7 @@
     --prymary: #007bff; 
     --secondary: rgb(229, 233, 236); 
     --borderimg: #0c0835; 
+    --border-fixt: #08042b;
 
    --light-black:#666; 
    --fourth: rgb(195, 198, 201); 
@@ -257,21 +258,23 @@ section{
     /* margin-top: 2rem; */
     text-align: center; 
     background-color: var(--third); 
-    /* background-image: url(./img-parket/parquet2.jpg);
+    background-image: url(./img-parket/bskt.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center; 
+    height: 85vh; 
 }
 
 .footer .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    gap: 2rem; 
+    margin-top: 60px;
 }
 
 .footer .icons-container .icons{
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; 
 }
 
 .footer .icons-container .icons i{
@@ -288,16 +291,16 @@ section{
 
 .footer .icons-container .icons h3{
     font-size: 2rem;
-    color: var(--bg);
+    color: var(--white);
     padding: 1rem 0;
-    text-transform: capitalize;
+    text-transform: capitalize; 
 }
 
 .footer .icons-container .icons p{
     line-height: 1.5;
     font-size: 1.9rem;
-    color: var(--bg);
-    text-transform: capitalize;
+    color: var(--black);
+    text-transform: capitalize; 
 }
 
 .footer .icons-container .icons .link{
@@ -338,7 +341,7 @@ section{
     margin-top: 3rem;
     padding-top: 3rem;
     font-size: 2rem;
-    color: var(--bg);
+    color: var(--black);
     border-top: var(--celeste);
 } 
 
@@ -420,16 +423,23 @@ section{
 } 
 
 .footer {
-    background-image: url(./img-parket/parquet6.jpg);
+    background-image: url(./img-parket/bskt1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    height: 100%;
 } 
-.footer .icons-container .icons h3, 
+.footer .icons-container .icons h3 {
+    background-color: #0000004d; 
+    width: 40%;
+    margin: 0 auto; 
+    border-radius: 20px;
+} 
+.footer .icons-container .icons h3,
 .footer .icons-container .icons p, 
 .footer .credit, 
 .footer .icons-container .icons .link {
-    color: var(--black);
+    color: var(--white);
 } 
 
 }
@@ -648,7 +658,7 @@ section{
 
 .fixture p {
    /* font-size: 24px; */
-    color: var(--bg); 
+    color: var(--border-fixt); 
 } 
 
 .fecha {
@@ -668,16 +678,16 @@ section{
 .dyh {
     display: flex; 
     justify-content: space-between; 
-    border-top: 2px solid var(--bg); 
-    border-left: 2px solid var(--bg);
-    border-right: 2px solid var(--bg); 
+    border-top: 2px solid var(--border-fixt); 
+    border-left: 2px solid var(--border-fixt);
+    border-right: 2px solid var(--border-fixt); 
     padding: 5px;
 } 
 
 .cancha {
-    border-bottom: 2px solid var(--bg); 
-    border-left: 2px solid var(--bg);
-    border-right: 2px solid var(--bg); 
+    border-bottom: 2px solid var(--border-fixt); 
+    border-left: 2px solid var(--border-fixt);
+    border-right: 2px solid var(--border-fixt); 
    /* border-top: 2px solid var(--bg); */
     padding: 5px;
 }
@@ -695,7 +705,7 @@ section{
     text-align: center;
     align-items: center;
     padding: 10px; 
-    border: 2px solid var(--bg); 
+    border: 2px solid var(--border-fixt); 
 } 
 
 .fixresult {
@@ -733,14 +743,14 @@ section{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    border: 2px solid var(--bg);
+    border: 2px solid var(--border-fixt);
 } 
 
 .nuevo2 {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    border: 2px solid var(--bg);
+    border: 2px solid var(--border-fixt);
     border-top: none;
 }
 
@@ -756,7 +766,7 @@ section{
 .result {
     width: 50px;
     height: 50px;
-    border-left: 2px solid var(--bg);
+    border-left: 2px solid var(--border-fixt);
     text-align: center; 
     align-items: center;
     display: flex;
@@ -775,7 +785,7 @@ section{
 .cont {
     width: 50px;
     height: 50px;
-    border-right: 2px solid var(--bg);
+    border-right: 2px solid var(--border-fixt);
     text-align: center; 
     align-items: center;
     display: flex;
@@ -784,7 +794,7 @@ section{
 } 
 
 .acordeon {
-    border: 2px solid var(--bg);
+    border: 2px solid var(--border-fixt);
     border-top: none; 
     width: 304px;
    /*  margin-top: 10px; */ 
@@ -814,13 +824,19 @@ section{
     overflow: hidden;
     transition: max-height 0.3s ease-out;
     background-color: var(--thirdact);
-    padding: 0 10px;
- /*   border-top: 1px solid var(--bg); */
+    padding: 0 10px; 
+    background-image: url(./img-parket/parquet2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+ /*   border-top: 1px solid var(--bg); */ 
+
 }
 
 .acordeon-content p {
     margin: 5px 0;
-    font-size: 16px;
+    font-size: 16px; 
+    color: var(--border-fixt);
 }
 
 /* ---------------------------------------------- */ 
