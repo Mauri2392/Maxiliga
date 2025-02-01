@@ -268,7 +268,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%; /* Ajusta según el tamaño que desees */
-    max-width: 1200px;  /* Tamaño máximo para la imagen */
+    max-width: 1000px;  /* Tamaño máximo para la imagen */
     margin: 0 auto; /* Centra el contenedor en la página */ 
 }
 
@@ -763,18 +763,19 @@ span{
     /* margin-top: 2rem; */
     text-align: center; 
     background-color: var(--third); 
-    background-image: url(./html-navbar/img-parket/bskt.jpeg);
+    background-image: url(./html-navbar/img-parket/bskt-copia2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    height: 85vh; 
+   /* height: calc(100vh);   tener en cuenta los 80px del navbar*/ 
+    /* height: 85vh; */ 
 }
 
 .footer .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem; 
-    margin-top: 60px;
+    margin-top: 60px; 
 }
 
 .footer .icons-container .icons{
@@ -863,7 +864,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    height: 100%;
+    height: 100%; 
 } 
 
 .footer .icons-container .icons h3 {
@@ -880,4 +881,54 @@ span{
     color: var(--white);
 } 
 
+} 
+
+
+.gallerri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
 }
+  
+.botones img {
+  /*   width: 500px; */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px var(--prymary); 
+    border-radius: 50px;
+} 
+
+.gallerri img:hover {
+    box-shadow: 0 0 20px var(--prymary); 
+    scale: 1.04;
+}
+
+/*
+.galleri::after {
+    content: "";
+    width: 350px;
+} */
+
+.botones {
+    text-align: center; 
+} 
+
+@media (max-width: 768px) { 
+section {
+    padding: 1rem 7%;
+} 
+ 
+.botones img {
+    width: 300px;
+    margin: 0 auto; 
+    height: 60px;
+} 
+
+} 
