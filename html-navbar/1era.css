@@ -427,6 +427,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    height: 100%;
 } 
 
 .footer .icons-container .icons h3 {
@@ -471,10 +472,10 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 10px; 
+    padding: 5px 10px; 
 }
   
 .galleri img {
@@ -683,16 +684,16 @@ section{
 .dyh {
     display: flex; 
     justify-content: space-between; 
-    border-top: 2px solid var(--border-fixt); 
-    border-left: 2px solid var(--border-fixt);
-    border-right: 2px solid var(--border-fixt); 
+    border-top: 2px solid var(--bg); 
+    border-left: 2px solid var(--bg);
+    border-right: 2px solid var(--bg); 
     padding: 5px;
 } 
 
 .cancha {
-    border-bottom: 2px solid var(--border-fixt); 
-    border-left: 2px solid var(--border-fixt);
-    border-right: 2px solid var(--border-fixt); 
+    border-bottom: 2px solid var(--bg); 
+    border-left: 2px solid var(--bg);
+    border-right: 2px solid var(--bg); 
    /* border-top: 2px solid var(--bg); */
     padding: 5px;
 }
@@ -710,7 +711,7 @@ section{
     text-align: center;
     align-items: center;
     padding: 10px; 
-    border: 2px solid var(--border-fixt); 
+    border: 2px solid var(--bg); 
 } 
 
 .fixresult {
@@ -748,14 +749,14 @@ section{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    border: 2px solid var(--border-fixt);
+    border: 2px solid var(--bg);
 } 
 
 .nuevo2 {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    border: 2px solid var(--border-fixt);
+    border: 2px solid var(--bg);
     border-top: none;
 }
 
@@ -771,7 +772,7 @@ section{
 .result {
     width: 50px;
     height: 50px;
-    border-left: 2px solid var(--border-fixt);
+    border-left: 2px solid var(--bg);
     text-align: center; 
     align-items: center;
     display: flex;
@@ -790,7 +791,7 @@ section{
 .cont {
     width: 50px;
     height: 50px;
-    border-right: 2px solid var(--border-fixt);
+    border-right: 2px solid var(--bg);
     text-align: center; 
     align-items: center;
     display: flex;
@@ -799,7 +800,7 @@ section{
 } 
 
 .acordeon {
-    border: 2px solid var(--border-fixt);
+    border: 2px solid var(--bg);
     border-top: none; 
     width: 304px;
    /*  margin-top: 10px; */ 
@@ -852,8 +853,16 @@ section{
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } 
+
+.table-container2 {
+    overflow-x: auto;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
 @media screen and (max-width: 767px) {
-    .table-container {
+    .table-container2 {
         margin-bottom: 100px;
     }
 }
@@ -862,7 +871,7 @@ table {
     border-collapse: collapse;
 }
 td {
-    font-size: 16px;
+    font-size: 16px; 
 }
 th, td {
     padding: 10px;
@@ -880,9 +889,10 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f1f1f1;
 }
-.team-name {
-    text-align: left;
-    padding-left: 15px;
+.team-name { 
+    text-align: center;
+   /* text-align: left;
+    padding-left: 15px; */
 }
 .team-logo {
     width: 40px;
@@ -1044,4 +1054,53 @@ tr:hover {
     font-size: 20px; 
     color: var(--bg); 
     text-align: center;
+} 
+
+.gallerri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
 }
+  
+.botones img {
+  /*   width: 500px; */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px var(--prymary); 
+    border-radius: 50px;
+} 
+
+.gallerri img:hover {
+    box-shadow: 0 0 20px var(--prymary); 
+    scale: 1.04;
+}
+
+/*
+.galleri::after {
+    content: "";
+    width: 350px;
+} */
+
+.botones {
+    text-align: center; 
+} 
+
+@media (max-width: 768px) { 
+section {
+    padding: 1rem 7%;
+} 
+
+.botones img {
+    width: 300px;
+    margin: 0 auto; 
+    height: 60px;
+} 
+
+} 
