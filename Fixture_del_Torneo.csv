@@ -1,0 +1,77 @@
+Fecha,Local,Visitante
+1,Argentinos,Velocidad
+1,Bahiense,Sportivo
+1,Comercial,Pueyrredon
+1,Estrella,Olimpo B
+1,Estudiantes,Olimpo A
+1,Independiente,Liniers
+,,
+2,Argentinos,Sportivo
+2,Velocidad,Pueyrredon
+2,Bahiense,Olimpo B
+2,Comercial,Olimpo A
+2,Estrella,Liniers
+2,Estudiantes,Independiente
+,,
+3,Argentinos,Pueyrredon
+3,Sportivo,Olimpo B
+3,Velocidad,Olimpo A
+3,Bahiense,Liniers
+3,Comercial,Independiente
+3,Estrella,Estudiantes
+,,
+4,Argentinos,Olimpo B
+4,Pueyrredon,Olimpo A
+4,Sportivo,Liniers
+4,Velocidad,Independiente
+4,Bahiense,Estudiantes
+4,Comercial,Estrella
+,,
+5,Argentinos,Olimpo A
+5,Olimpo B,Liniers
+5,Pueyrredon,Independiente
+5,Sportivo,Estudiantes
+5,Velocidad,Estrella
+5,Bahiense,Comercial
+,,
+6,Argentinos,Liniers
+6,Olimpo A,Independiente
+6,Olimpo B,Estudiantes
+6,Pueyrredon,Estrella
+6,Sportivo,Comercial
+6,Velocidad,Bahiense
+,,
+7,Argentinos,Independiente
+7,Liniers,Estudiantes
+7,Olimpo A,Estrella
+7,Olimpo B,Comercial
+7,Pueyrredon,Bahiense
+7,Sportivo,Velocidad
+,,
+8,Argentinos,Estudiantes
+8,Independiente,Estrella
+8,Liniers,Comercial
+8,Olimpo A,Bahiense
+8,Olimpo B,Velocidad
+8,Pueyrredon,Sportivo
+,,
+9,Argentinos,Estrella
+9,Estudiantes,Comercial
+9,Independiente,Bahiense
+9,Liniers,Velocidad
+9,Olimpo A,Sportivo
+9,Olimpo B,Pueyrredon
+,,
+10,Argentinos,Comercial
+10,Estrella,Bahiense
+10,Estudiantes,Velocidad
+10,Independiente,Sportivo
+10,Liniers,Pueyrredon
+10,Olimpo A,Olimpo B
+,,
+11,Argentinos,Bahiense
+11,Comercial,Velocidad
+11,Estrella,Sportivo
+11,Estudiantes,Pueyrredon
+11,Independiente,Olimpo B
+11,Liniers,Olimpo A

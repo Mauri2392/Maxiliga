@@ -154,7 +154,7 @@ section{
 
 /* end */  
 .home {
-    background-image: url(./img-parket/parquet2.jpg);
+    background-image: url(../html-navbar/img-parket/parquet2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,6 +175,8 @@ section{
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
+    border-top-right-radius: 200px; 
+    border-bottom-right-radius: 200px;
     margin-top: 120px; 
 }
 
@@ -259,7 +261,7 @@ section{
     text-align: center; 
     background-color: var(--third); 
   /*    background-image: url(./img-parket/Diseño\ sin\ título\ \(3\).png); */
-    background-image: url(./img-parket/bskt-copia2.jpeg); 
+    background-image: url(../html-navbar/img-parket/bskt-copia2.jpeg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -425,7 +427,7 @@ section{
 } 
 
 .footer {
-    background-image: url(./img-parket/bskt2.png);
+    background-image: url(../html-navbar/img-parket/bskt2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -645,418 +647,15 @@ section{
 
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
-/* FIXTURE */ 
-.fixture {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 10px;
-} 
 
-.fixture img {
-    width: 35px;
-    height: 35px; 
-    border-radius: 50%; 
-} 
-
-.fixture p {
-   /* font-size: 24px; */
-    color: var(--border-fixt); 
-} 
-
-.fecha {
-    text-align: center; 
-    margin-bottom: 5px; 
-    background-image: url(./img-parket/parquet2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-} 
-
-.fecha p {
-    font-size: 16px; 
-    padding: 2px;
-} 
-
-.dyh {
-    display: flex; 
-    justify-content: space-between; 
-    border-top: 2px solid var(--bg); 
-    border-left: 2px solid var(--bg);
-    border-right: 2px solid var(--bg); 
-    padding: 5px;
-} 
-
-.cancha {
-    border-bottom: 2px solid var(--bg); 
-    border-left: 2px solid var(--bg);
-    border-right: 2px solid var(--bg); 
-   /* border-top: 2px solid var(--bg); */
-    padding: 5px;
-}
-
-.border {
-    display: flex; 
-    width: 300px;
-    height: 110px; 
-} 
-
-.fiximg, .fixnombre, .fixresult{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    text-align: center;
-    align-items: center;
-    padding: 10px; 
-    border: 2px solid var(--bg); 
-} 
-
-.fixresult {
-    width: 60px;
-}
-
-.fixresult p {
-    margin-bottom: 8px;
-}
-
-.fixnombre p {
-    font-size: 24px; 
-    margin-bottom: 0px;
-}
-
-.fiximg img {
-    margin-bottom: 5px; 
-  /*  width: 30px; 
-    height: 30px; */
-} 
-
-.fixnombre {
-    border-left: 0px;
-    border-right: 0px; 
-    text-align: center;
-    padding-top: 5px; 
-    min-width: 190px; 
-} 
-
-.fixnombre p {
-    padding-top: 3px; 
-} 
-
-.nuevo {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    border: 2px solid var(--bg);
-} 
-
-.nuevo2 {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    border: 2px solid var(--bg);
-    border-top: none;
-}
-
-.nombre {
-    text-align: center; 
-    width: 200px; 
-} 
-
-.nombre p {
-    font-size: 18px; 
-} 
-
-.result {
-    width: 50px;
-    height: 50px;
-    border-left: 2px solid var(--bg);
-    text-align: center; 
-    align-items: center;
-    display: flex;
-    justify-content: center;
-} 
-
-.result p { 
-    font-size: 18px; 
-}
-
-.nuevo img { 
-    width: 40px;
-    height: 40px; 
-} 
-
-.cont {
-    width: 50px;
-    height: 50px;
-    border-right: 2px solid var(--bg);
-    text-align: center; 
-    align-items: center;
-    display: flex;
-    justify-content: center; 
-    /* background-color: var(--white); */
-} 
-
-.acordeon {
-    border: 2px solid var(--bg);
-    border-top: none; 
-    width: 304px;
-   /*  margin-top: 10px; */ 
- /*  border-bottom: 1px solid var(--bg); */
-}
-
-.acordeon-btn {
-    background-color: var(--prymary);
-    color: var(--bg);
-    border: none;
-    width: 100%;
-    padding: 10px; 
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer; 
-}
-
-.acordeon-btn:hover {
-   /* background-color: var(--prymary); */
-   background-color: var(--bg);  
-   color: var(--thirdact); 
-   
-} 
-
-.acordeon-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    background-color: var(--thirdact);
-    padding: 0 10px; 
-  /*  background-image: url(./img-parket/parquet2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
- /*   border-top: 1px solid var(--bg); */ 
-
-}
-
-.acordeon-content p {
-    margin: 5px 0;
-    font-size: 16px; 
-    color: var(--bg);
-}
-
-/* ---------------------------------------------- */ 
-/* ---------------------------------------------- */ 
-.table-container {
-    overflow-x: auto;
-    margin: 20px 0;
-    background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} 
-
-.table-container2 {
-    overflow-x: auto;
-    margin: 20px 0;
-    background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} 
-
-@media screen and (max-width: 767px) {
-    .table-container2 {
-        margin-bottom: 100px;
-    }
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-td {
-    font-size: 16px; 
-}
-th, td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-th {
-    background-color: #007bff;
-    color: white; 
-    font-size: 14px;
-}
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-tr:hover {
-    background-color: #f1f1f1;
-}
-.team-name { 
-    text-align: center;
-   /* text-align: left;
-    padding-left: 15px; */
-}
-.team-logo {
-    width: 40px;
-    height: 40px;
-    object-fit: cover; 
-    border-radius: 50%;
-} 
 
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
 
-.banner{ 
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
-    position: relative; 
-    max-width: 1400px; 
-    margin: 0 auto;
-} 
+/* ---------------------------------------------- */ 
+/* ---------------------------------------------- */ 
 
-.banner .slider{
-    position: absolute; 
-    width: 130px;
-    height: 130px;
-    top: 10%;
-    left: calc(50% - 100px);
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-    animation: autoRun 15s linear infinite;
-    z-index: 2;
-    margin-top: 20px;
-} 
-@keyframes autoRun{
-    from{
-        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-    }to{
-        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-    }
-}
 
-.banner .slider .item{
-    position: absolute;
-    inset: 0 0 0 0;
-    transform: 
-        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        translateZ(550px);
-}
-.banner .slider .item img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.banner .content{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 100vw);
-    height: max-content;
-    padding-bottom: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-}
-.banner .content h1{
-    font-family: 'ICA Rubrik';
-    font-size: 16em;
-    line-height: 1em;
-    color: #25283B;
-    position: relative;
-}
-.banner .content h1::after{
-    position: absolute;
-    inset: 0 0 0 0;
-    content: attr(data-content);
-    z-index: 2;
-    -webkit-text-stroke: 2px #d2d2d2;
-    color: transparent;
-}
-.banner .content .author{
-    font-family: Poppins;
-    text-align: right;
-    max-width: 200px;
-}
-.banner .content h2{
-    font-size: 3em;
-}
-.banner .content .model{
-    background-image: url(../html-equipos/curry_dos-removebg-preview.png);
-    width: 100%;
-    height: 93vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-size: auto 130%;
-    background-repeat: no-repeat;
-    background-position: top center;
-    z-index: 1;
-}
-@media screen and (max-width: 1023px) {
-    .banner .slider{
-        width: 130px;
-        height: 130px;
-        left: calc(50% - 80px); 
-        margin-top: 200px;
-    }
-    .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(300px);
-    }
-    .banner .content h1{
-        text-align: center;
-        width: 100%;
-        text-shadow: 0 10px 20px #000;
-        font-size: 7em;
-    }
-    .banner .content .author{
-        color: #fff;
-        padding: 20px;
-        text-shadow: 0 10px 20px #000;
-        z-index: 2;
-        max-width: unset;
-        width: 100%;
-        text-align: center;
-        padding: 0 30px;
-    }
-}
-@media screen and (max-width: 767px) {
-    .banner {
-        overflow: visible;
-    }
-    .banner .slider{
-        width: 100px;
-        height: 100px;
-        left: calc(50% - 50px); 
-        margin-top: -150px;
-        position: absolute;
-    }
-    .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(180px);
-    }
-    .banner .content h1{
-        font-size: 5em;
-    }
-} 
-
-.reglamento { 
-    max-width: 1200px; 
-    margin: 0 auto;
-} 
-
-.reglamento p {
-    font-size: 20px; 
-    color: var(--bg); 
-    text-align: center;
-} 
 
 .gallerri {
     display: flex;
@@ -1106,3 +705,30 @@ section {
 } 
 
 } 
+
+
+.gayeri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+}
+  
+.gayeri p { 
+    font-size: 16px;
+    color: var(--white); 
+    background-color: var(--prymary); 
+    border-radius: 5px; 
+    padding: 5px 10px;
+} 
+
+.gayeri p:hover { 
+    scale: 1.1; 
+    color: var(--prymary); 
+    background-color: var(--white); 
+}

@@ -43,7 +43,7 @@ body.active{
     --light-bg: #08042b; */
     --bg: #08042b; 
     --light-bg: #130f40; 
-    --black: #fff; 
+   /* --black: #fff; */
     --black2: #fff; 
 }
 
@@ -775,7 +775,7 @@ span{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem; 
-    margin-top: 60px; 
+    margin-top: 80px; 
 }
 
 .footer .icons-container .icons{
@@ -787,12 +787,12 @@ span{
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    background: var(--celete);
+  /*  background: var(--celete); */
     color: white;
     /*color: var(--light-bg);*/
     margin-bottom: .5rem;
     line-height: 5.8rem;
-    font-size: 3rem;
+    font-size: 3rem; 
 }
 
 .footer .icons-container .icons h3{
