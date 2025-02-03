@@ -512,12 +512,19 @@ section{
 .jugador {
     display: flex; 
     flex-direction: column; 
-    text-align: center;
+    text-align: center; 
+   /* background-color: #007bff; 
+    padding: 5px; 
+    border-radius: 5px; */
 } 
+/* 
+.jugador img {
+    background-color: #007bff;
+} */ 
 
 .galleri .caras {
     border-radius: 50%; 
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
 
 .galleri p {

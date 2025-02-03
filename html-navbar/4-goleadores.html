@@ -146,9 +146,6 @@
     </div>
 </section> 
 
-<input type="file" id="inputExcel" />
-<table id="tablaExcel"></table>
-
 <section class=""> 
     <div class="gallerri"> 
   
@@ -253,33 +250,6 @@
   </section> 
 <!-- end --> 
 </main> 
-
-<script>
-    document.getElementById("inputExcel").addEventListener("change", function(event) {
-        const reader = new FileReader();
-        reader.readAsArrayBuffer(event.target.files[0]);
-        reader.onload = function(e) {
-            const data = new Uint8Array(e.target.result);
-            const workbook = XLSX.read(data, { type: "array" });
-            const sheetName = workbook.SheetNames[0];
-            const sheet = workbook.Sheets[sheetName];
-            const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
-
-            let table = "<table border='1'>";
-            jsonData.forEach((row, index) => {
-                table += "<tr>";
-                row.forEach(cell => table += `<td>${cell}</td>`);
-                table += "</tr>";
-            });
-            table += "</table>";
-
-            document.getElementById("tablaExcel").innerHTML = table;
-        };
-    });
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./script.js"></script>
 </body>
